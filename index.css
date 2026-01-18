@@ -121,6 +121,14 @@ li {
 
 li p {
     flex: 1;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    white-space: normal;
 }
 
 li.done p {
