@@ -212,6 +212,7 @@ footer {
         width: 100%;
         padding: 14px;
         border-radius: 14px;
+        padding-left: 20px;
     }
 
     .filters {
