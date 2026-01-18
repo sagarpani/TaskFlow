@@ -3,14 +3,14 @@ function target(id) {
     return document.getElementById(id);
 }
 
-// Targeting elements
+// Targeting elements individually
 const input = target('todoInput');
 const timeInput = target('timeInput');
 const list = target('todoList');
 const addBtn = target('addBtn');
 const filterBtns = document.querySelectorAll('.filters button');
 
-//Loading the list data from the localStorage
+//Loading the list data from the localStorage 
 
 let todos = JSON.parse(localStorage.getItem('todos')) || [];
 
