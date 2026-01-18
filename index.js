@@ -3,7 +3,7 @@ function target(id) {
     return document.getElementById(id);
 }
 
-// Targeting elements individually
+// Targeting elements
 const input = target('todoInput');
 const timeInput = target('timeInput');
 const list = target('todoList');
